@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+body, html {
+    background: #f2f2f2;
+}
+.container {
+    max-width: 758px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #fff;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-text {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.questions, .item-answers {
+    list-style: none;
+}
+.test {
+    display: flex;
+}
+.questions {
+    width: 100%;
+}
+.question-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px 4px 0 0;
+}
+.question-item:last-child {
+    margin-bottom: 50px;
+}
+.item
+.item-header {
+    padding: 21px 24px 0;
+}
+.item-num {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    margin-bottom: 29px;
+}
+.item-text {
+    color: #ff719f;
+    margin-bottom: 21px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.item-img {
+    width: 100%;
+}
+.item-answers {
+    padding: 14px 10px;
+    background: #f2f2f2;
+    border-radius: 4px;
+}
+.answers
+.answers-item {
+    display: flex;
+    align-items: center;
+    min-height: 49px;
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+}
+.answers-item:last-child {
+    border-bottom: none;
+}
+.answers-item:hover {
+    background-color: #97cbff;
+    transition: background-color 0.3s ease;
+}
+.answer {
+    background: #fff;
+}
+.answer-label {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+.answer-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.result {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hidden {
+    display: none;
+}
+.btn {
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+    background: #ff719f;
+    border: 1px solid #ff719f;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn:hover {
+    background-color: #af4b6b;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.right {
+    background: #bfe895;
+}
+.wrong {
+    background: #ff8ca4;
+}
